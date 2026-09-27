@@ -44,7 +44,7 @@ El objetivo académico es demostrar, de forma sencilla y completamente comentada
 ## Estructura del repositorio
 
 ```
-├── transporte_tunja.py     # Código fuente (también disponible como .ipynb de Colab)
+├── Transporte_Tunja.py     # Código fuente (también disponible como .ipynb de Colab)
 ├── README.md                # Este archivo
 ```
 
