@@ -14,8 +14,6 @@ El sistema modela una versión simplificada del transporte urbano de Tunja (Boya
 
 Cuando ninguna de las dos reglas se cumple, el sistema informa al usuario que no fue posible encontrar una conexión con la información disponible.
 
-El objetivo académico es demostrar, de forma sencilla y completamente comentada, cómo estructuras básicas de programación (listas, diccionarios, funciones y condicionales) pueden combinarse para simular un razonamiento lógico simple, similar al que usaría una persona al planear su viaje en la vida real.
-
 ## ¿Qué hace el sistema?
 
 - Contiene una base de conocimiento con 21 lugares y 10 rutas del transporte urbano de Tunja.
@@ -60,9 +58,6 @@ El objetivo académico es demostrar, de forma sencilla y completamente comentada
 - El desarrollo de este sistema permitió comprender de manera práctica cómo un conjunto de reglas lógicas simples, apoyadas en estructuras de datos básicas (listas y diccionarios), puede simular un proceso de toma de decisiones que en apariencia requeriría un análisis más complejo.
 - Representar el conocimiento del dominio (lugares, rutas y tiempos) de forma separada de la lógica de búsqueda facilita que el sistema pueda crecer o corregirse sin tener que modificar el motor de reglas, lo cual es una de las ventajas centrales de los sistemas basados en reglas frente a soluciones "hardcodeadas".
 - Se evidenció también una limitación propia de este enfoque: el sistema solo encuentra la primera solución que cumple las reglas, no necesariamente la más rápida o la más eficiente, lo que abre la puerta a mejoras futuras como comparar varias alternativas y escoger la de menor tiempo total, o considerar las rutas en ambos sentidos de circulación.
-- En conjunto, la actividad permitió aplicar de forma concreta conceptos vistos en el curso —bases de conocimiento, reglas lógicas, condicionales, funciones y `return`— en un caso realista y cercano al contexto del estudiante: el transporte urbano de su propia ciudad.
 
 ## Autores
 Natalia Espinosa y Eduard Rojas
-
-Proyecto desarrollado como parte de la Actividad 2 del curso de Inteligencia Artificial — Búsqueda y sistemas basados en reglas.
